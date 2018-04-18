@@ -1,42 +1,53 @@
-h1 {
-	font-size: 30pt;
-	text-align: center; 
-	border: 15px solid blue;
-	color: white;
-}
-
-p {
-	color: white;
-}
-
-h2 {
-	background-color: lightgrey;
-	font-size: 16pt;
-	text-align: center;
-}
-
-h4 {
-	background-color: lightgrey;
-	font-size: 16pt;
-	text-align: center;
-	clear:both;
+* {
+	font-family: Arial, sans-serif;
 }
 
 body {
 	background:url(https://subtlepatterns.com/patterns/broken_noise.png);
 }
-#redmayne {
-	float: left;
+
+.content {
+	width: 70%;
+	min-width: 500px;
+	padding: 0 20px 20px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffa;
 }
 
-#eddie {
-	position: relative;
-	float: right;
-}
-
-h3 {
+h1 {
+	text-align: center; 
+	font-size: 30pt
+	border: 13px solid blue;
 	color: white;
-	float: right;
 }
+
+h2 {
+	background-color: lightgrey;
+	margin: 20px -20px;
+	padding: 5px;
+	text-align: center;
+}
+
+img {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+li {
+	padding: 5px;
+}
+
+li:hover {
+	background-color: lightblue;
+	outline: 1px solid grey;
+}
+
+
+
 
 
