@@ -1,0 +1,42 @@
+h1 {
+	font-size: 30pt;
+	text-align: center; 
+	border: 15px solid blue;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+h2 {
+	background-color: lightgrey;
+	font-size: 16pt;
+	text-align: center;
+}
+
+h4 {
+	background-color: lightgrey;
+	font-size: 16pt;
+	text-align: center;
+	clear:both;
+}
+
+body {
+	background:url(https://subtlepatterns.com/patterns/broken_noise.png);
+}
+#redmayne {
+	float: left;
+}
+
+#eddie {
+	position: relative;
+	float: right;
+}
+
+h3 {
+	color: white;
+	float: right;
+}
+
+
